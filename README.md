@@ -97,6 +97,52 @@
 ### 数据来源：来自于[Mad Net](http://mad-net.org:8765/index.html?t=0.1629550266458497)数据平台，[可穿戴传感器健康老年人动作识别](http://mad-net.org:8765/explore.html?t=0.5831516555847212)数据集。
 
 
+## Satellite
+### 数据集描述
+
+1.  该数据集来自于陆地卫星（Statlog），是一个多类分类**点数据集**。
+2.  数据集中最小的三个类别（2，4，5）被作为异常数据类别，其余作为正常数据类别。
+
+### 数据信息
+
+| 数据量 | 数据维度| 异常比例 | 
+| :----: | :----:| :------:| 
+| 6435 | 36 | 2036 (32%)| 
+
+### 数据来源：来自[UCI数据库](https://archive.ics.uci.edu/ml/index.php)的[Statlog (Landsat Satellite)](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Landsat+Satellite%29)数据集。
+
+## Shuttle
+### 数据集描述
+
+1.  该数据集来自陆地卫星（Statlog），是一个多类分类**点数据集**，维度为9.
+2.  数据集中最小的五个类别（2，3，5，6，7）被作为异常数据类别，类别1作为正常数据类别，类别4被丢弃。
+
+### 数据信息
+
+| 数据量 | 数据维度| 异常比例 | 
+| :----: | :----:| :------:| 
+| 49097 | 9 | 3511 (7%) | 
+
+### 数据来源：来自[UCI数据库](https://archive.ics.uci.edu/ml/index.php)的[Statlog (Shuttle)](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Shuttle%29)数据集。
+
+## Mammography
+### 数据集描述
+
+1.  乳腺摄影数据集（[Woods等，1993](https://www.worldscientific.com/doi/abs/10.1142/S0218001493000698)）由 [Aleksandar Lazarevic](https://www-users.cs.umn.edu/~lazar027/)提供。
+2.  该数据集有11183个样本，其中260个钙化。将钙化的样本视为异常样本，非钙化样本视为正常样本
+
+### 数据信息
+
+| 数据量 | 数据维度| 异常比例 | 
+| :----: | :----:| :------:| 
+| 11183 | 6 | 260 (2.32%) | 
+
+### 数据来源：可在[openML](https://www.openml.org/d/310)中获得
+
+
+
+
+
 
 
 
