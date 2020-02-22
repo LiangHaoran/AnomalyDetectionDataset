@@ -16,15 +16,15 @@
 
   | 状态 | 状态描述| 
   | :----: | :----: | 
-  | 0 | Idle |
-  | 1 | Homing |  
-  | 2 | AvoidStorage |   
-  | 3 | ActivateStorage |
-  | 4 | ToStorage |
-  | 5 | CloseGripper |
-  | 6 | ToSensor |
-  | 7 | ToBox |
-  | 8 | OpenGripper |
+  | 0 | 空闲(Idle) |
+  | 1 | 归位(Homing) |  
+  | 2 | 避免存储(AvoidStorage) |   
+  | 3 | 激活存储(ActivateStorage) |
+  | 4 | 移至存储位置(ToStorage) |
+  | 5 | 关闭抓取器(CloseGripper) |
+  | 6 | 移至传感器(ToSensor) |
+  | 7 | 移至存储盒(ToBox) |
+  | 8 | 打开抓取器(OpenGripper) |
   
 - 在**Genesis_AnomalyLabels.csv**文件中，对异常标签进行了手动注释，仅模拟了一种类型的异常。异常描述如下：
   
