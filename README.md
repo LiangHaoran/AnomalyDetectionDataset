@@ -100,30 +100,18 @@
 ## Satellite
 ### 数据集描述
 
-1.  该数据集来自于陆地卫星（Statlog），是一个多类分类**点数据集**。
-2.  数据集中最小的三个类别（2，4，5）被作为异常数据类别，其余作为正常数据类别。
+1.  该数据集是哈佛大学提供的无监督异常检测数据集。
+2.  数据列表的最后一列表示标签，只有o和n，o表示异常，n表示正常。 
 
-### 数据信息
-
-| 数据量 | 数据维度| 异常比例 | 
-| :----: | :----:| :------:| 
-| 6435 | 36 | 2036 (32%)| 
-
-### 数据来源：来自[UCI数据库](https://archive.ics.uci.edu/ml/index.php)的[Statlog (Landsat Satellite)](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Landsat+Satellite%29)数据集。
+### 数据来源：来自[HARVARD Dataverse](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/OPQMVF/UNGQHH&version=1.0)。
 
 ## Shuttle
 ### 数据集描述
 
-1.  该数据集来自陆地卫星（Statlog），是一个多类分类**点数据集**，维度为9.
-2.  数据集中最小的五个类别（2，3，5，6，7）被作为异常数据类别，类别1作为正常数据类别，类别4被丢弃。
+1.  该数据集是哈佛大学提供的无监督异常检测数据集。
+2.  数据列表的最后一列表示标签，只有o和n，o表示异常，n表示正常。
 
-### 数据信息
-
-| 数据量 | 数据维度| 异常比例 | 
-| :----: | :----:| :------:| 
-| 49097 | 9 | 3511 (7%) | 
-
-### 数据来源：来自[UCI数据库](https://archive.ics.uci.edu/ml/index.php)的[Statlog (Shuttle)](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Shuttle%29)数据集。
+### 数据来源：来自[HARVARD Dataverse](https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/OPQMVF/VW8RDW&version=1.0)。
 
 ## Mammography
 ### 数据集描述
